@@ -1,0 +1,76 @@
+<svg
+    width="1200"
+    height="150"
+    viewBox="0 0 1200 150"
+    xmlns="http://www.w3.org/2000/svg"
+    style="background-color:#3A3A46; border-radius:15px;">
+  <defs>
+    <linearGradient id="text-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B0A0E0"/>
+      <stop offset="50%" stop-color="#90C0D0"/>
+      <stop offset="100%" stop-color="#90B0E0"/>
+    </linearGradient>
+    <linearGradient id="fuji-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8A8A9A" stop-opacity="0.8"/>
+      <stop offset="65%" stop-color="#6A6A76" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3A3A46" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <filter id="brush-texture" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" result="noise" seed="3"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="ink-dispersion" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="1" result="noise" seed="5"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <style>
+      .kanji {
+        font-family: 'Georgia', serif;
+        fill: url(#text-gradient);
+      }
+      .romanji {
+        font-family: 'Georgia', serif;
+        fill: #E8E0D0
+      }
+    </style>
+  </defs>
+    <!-- Mountain -->
+    <path
+       opacity="0.3"
+        d="M593.53,177.488c0.256,0,0.512-0.0288,0.7712-0.0928c41.0624-10.1312,78.7648-29.04,115.2352-57.7664c9.8272,0.8704,20.6048-2.4736,32.08-10.064c0.96-0.6304,1.8016-0.2944,2.1248-0.1248c0.32,0.1728,1.0656,0.7008,1.0624,1.8464c-0.0288,7.4336,2.1312,12.0096,6.4192,13.6c0.704,0.2624,1.5136,0.4576,2.4704,0.4576c3.7472,0,9.6992-3.0016,19.952-16.832c0.576-0.7712,1.3792-0.8224,1.6864-0.8288c0.3872,0.0096,1.1136,0.1376,1.616,0.8928c0.9504,1.424,3.84,5.7856,7.8496,5.4048c1.584-0.1376,3.0592-0.7552,4.2624-1.7792c0.7264-0.6144,1.8144-1.0336,2.6048-0.5792c3.1968,1.8272,6.4352,2.1184,9.376,0.832c2.4672-1.072,4.3968-3.8912,6.0768-8.8704c0.4032-1.2032,1.3952-1.4048,1.7984-1.4368c0.3744-0.0352,1.3376,0.0128,1.888,1.0816c3.3088,6.4096,7.7504,12.6144,13.2032,18.4512c2.2912,2.4512,5.6864,3.3216,8.8576,2.2688c3.152-1.04,5.3472-3.7376,5.728-7.04c0.2016-1.7376,0.3168-3.4432,0.3488-5.0688c0.0224-1.1712,0.8-1.6896,1.1328-1.8592c0.3936-0.1984,1.1776-0.4384,2.0416,0.1728c12.4224,8.7968,25.6192,13.2768,41.4016,14.1088c33.424,26.96,68.2336,42.592,106.384,47.7472c1.728,0.2144,3.3632-0.992,3.6-2.7424c0.2368-1.7504-0.992-3.3632-2.7424-3.6c-37.2576-5.0304-71.28-20.4064-104.0096-46.9696c-22.6336-18.3904-44.8864-42.4256-68.0352-73.4752c-3.6256-4.8608-10.1088-6.5312-15.7664-4.0608c-5.5168,2.4096-11.0624,3.3344-16.9536,2.8224c-5.4368-0.4608-10.8576,1.8176-14.5248,6.1312c-21.6192,25.4048-42.8544,46.2656-64.9216,63.7632c-14.9248,11.8624-52.5472,29.7952-91.1648,40.6016c-1.7152,0.4224-2.7648,2.1376-2.3424,3.872c0.3584,1.4592,1.664,2.432,3.1296,2.432z M776.3424,54.2304c2.3296-2.7392,5.7312-4.2048,9.0944-3.9008c6.88,0.5952,13.6384-0.5248,20.0704-3.3312c2.9152-1.2736,6.2368-0.4416,8.0736,2.0192c20.7616,27.8528,40.8576,50.1504,61.1776,67.8944c-10.6336-1.7632-20.016-5.6512-28.9472-11.9744c-2.5536-1.8048-5.856-2.0608-8.624-0.6656c-2.8064,1.4176-4.5856,4.272-4.6464,7.4496c-0.0256,1.4208-0.1312,2.9184-0.3072,4.4576c-0.1344,1.1648-1.0048,1.5712-1.3728,1.6928c-0.3744,0.128-1.3504,0.3264-2.176-0.5632c-5.0528-5.4016-9.1552-11.1264-12.192-17.0112c-1.5744-3.0528-4.6784-4.8032-8.0608-4.528c-3.44,0.2592-6.2656,2.4704-7.3792,5.7696c-1.4624,4.3296-2.5792,5.0528-2.5728,5.0528c-0.384,0.1664-1.5488,0.672-3.6416-0.5248c-3.0624-1.7504-6.96-1.2576-9.9264,1.2576c-0.1376,0.1184-0.2784,0.1952-0.4384,0.24c-0.2848-0.1888-1.0368-0.7936-2.2048-2.544c-1.52-2.272-4.0544-3.6704-6.784-3.7344c-2.6784-0.0512-5.3504,1.2096-6.9856,3.4176c-9.392,12.6688-14.128,14.5376-15.0592,14.1888c-1.4208-0.528-2.2624-3.36-2.2432-7.5776c0.0096-3.1488-1.6832-6.0256-4.4224-7.504c-2.736-1.4752-6.0704-1.3152-8.6944,0.4192c-7.1968,4.7616-13.9776,7.6352-20.2752,8.6912C737.6096,89.4224,756.8352,77.1552,776.3424,54.2304z" fill="url(#fuji-gradient)" stroke="rgba(240,240,250,0.18)" stroke-width="1" filter="url(#brush-texture)" style="paint-order: stroke; stroke-linecap: round; stroke-linejoin: round;"/>
+
+  <!-- Sky glow -->
+  <ellipse cx="600" cy="380" rx="600" ry="300" fill="#504C6A" opacity="0.25" />
+
+  <!-- Moon -->
+  <circle cx="950" cy="40" r="22" fill="#E0D8E8" opacity="0.4" filter="url(#soft-glow)" style="paint-order: stroke; stroke: rgba(255,255,255,0.1); stroke-width: 0.6;"/>
+
+  <!-- Mist/Clouds -->
+  <path opacity="0.5" d="M750,80 C800,65 850,90 900,75 S950,85 1000,70 S1050,80 1100,65" fill="none" stroke="rgba(230,230,240,0.15)" stroke-width="12" filter="url(#ink-dispersion)" stroke-linecap="round" stroke-linejoin="round"/>
+  <path opacity="0.5" d="M800,100 C850,85 900,95 950,80 S1000,90 1050,80 S1100,95 1150,85" fill="none" stroke="rgba(230,230,240,0.12)" stroke-width="10" filter="url(#ink-dispersion)" stroke-linecap="round" stroke-linejoin="round"/>
+  <path opacity="0.5" d="M860,60 C890,50 920,55 950,45 S1000,50 1040,40" fill="none" stroke="rgba(230,230,240,0.18)" stroke-width="8" filter="url(#ink-dispersion)" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Stars -->
+  <circle cx="150" cy="30" r="1" fill="#E0D8E8" opacity="0.7"/>
+  <circle cx="380" cy="25" r="1.2" fill="#E0D8E8" opacity="0.8"/>
+  <circle cx="450" cy="40" r="0.8" fill="#E0D8E8" opacity="0.6"/>
+  <circle cx="200" cy="70" r="1" fill="#E0D8E8" opacity="0.7"/>
+  <circle cx="320" cy="15" r="0.9" fill="#E0D8E8" opacity="0.6"/>
+  <circle cx="600" cy="20" r="1.1" fill="#E0D8E8" opacity="0.8"/>
+  <circle cx="680" cy="35" r="0.7" fill="#E0D8E8" opacity="0.6"/>
+  <circle cx="500" cy="60" r="1" fill="#E0D8E8" opacity="0.7"/>
+  <circle cx="550" cy="25" r="0.8" fill="#E0D8E8" opacity="0.6"/>
+  <!-- Kanji -->
+  <text x="620" y="75" font-size="120" dominant-baseline="middle" text-anchor="end" class="kanji">幽玄</text>
+
+  <!-- Romanji -->
+  <text x="640" y="80" font-size="56" dominant-baseline="middle" text-anchor="start" class="romanji">Yūgen</text>
+</svg>

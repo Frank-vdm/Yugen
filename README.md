@@ -1,6 +1,6 @@
 
 
-![Yūgen Banner](./assets/banner.svg)
+<img src="./assets/banner.svg" alt="Yūgen Banner" style="border-radius: 8px;">
 
 # 幽玄 (Yūgen) Themes for Zed
 

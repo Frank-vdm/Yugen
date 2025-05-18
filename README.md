@@ -1,46 +1,58 @@
-# Yūgen Themes
 
-Yūgen (幽玄) is a set of six carefully crafted themes for Visual Studio Code, inspired by the Japanese aesthetic concept of subtle profundity. These themes offer a range of options from deep dark to bright light, each designed to provide a comfortable and aesthetically pleasing coding experience.
 
-## Theme Variants
+![Yūgen Banner](./assets/banner.svg)
 
-1. **Yūgen Kuro (幽玄黒)** - The darkest theme, representing the depth of night.
-2. **Yūgen Yoru (幽玄夜)** - A very dark theme, evoking the essence of night.
-3. **Yūgen Oborozuki (幽玄朧月)** - A dark theme with a hint of light, like a hazy moon.
-4. **Yūgen Akebono (幽玄曙)** - A balanced theme representing dawn, bridging dark and light.
-5. **Yūgen Asahi (幽玄朝日)** - A light theme capturing the gentle light of morning.
-6. **Yūgen Hikari (幽玄光)** - The lightest theme, embodying pure, bright light.
+# 幽玄 (Yūgen) Themes for Zed
 
-## Features
+## A Profound Coding Experience
 
-- Carefully selected color palettes for each theme variant
-- Optimized for long coding sessions with reduced eye strain
-- Consistent styling across all variants for a unified experience
-- Syntax highlighting tuned for readability and aesthetic appeal
-- Support for a wide range of programming languages and file types
+**Yūgen** (幽玄) embodies the Japanese aesthetic concept of a profound awareness that triggers emotions too deep and mysterious for words. This meticulously crafted collection of themes for the Zed editor translates that philosophical beauty into your coding environment, offering a spectrum from deepest dark to brightest light.
+
+> "To watch the sun sink behind a flower clad hill, to wander on in a huge forest without thought of return, to stand upon the shore and gaze after a boat that disappears behind distant islands... such are the gates to Yūgen."
+
+## Theme Spectrum
+
+Each variant in the Yūgen collection represents a distinct moment in the transition from darkness to light, carefully designed to provide both aesthetic pleasure and functional clarity:
+
+| Theme | Description | Recommended For |
+|-------|-------------|-----------------|
+| **Yūgen Kuro (幽玄黒)** | The deepest darkness, like the depth of night | Late-night coding, minimal environmental light |
+| **Yūgen Yoru (幽玄夜)** | Dark with subtle warmth, evoking the essence of night | Evening sessions, low-light environments |
+| **Yūgen Oborozuki (幽玄朧月)** | Dark with luminous accents, like moonlight through clouds | Standard dark theme for daily use |
+| **Yūgen Akebono (幽玄曙)** | Balanced midtones representing dawn | Transitional lighting, reducing eye strain |
+| **Yūgen Asahi (幽玄朝日)** | Soft light capturing morning's gentle illumination | Well-lit environments, daytime coding |
+| **Yūgen Hikari (幽玄光)** | Bright and clear, embodying pure light | Bright environments, high-contrast preference |
+
+## Thoughtful Design
+
+- **Harmonious Color Palettes** — Each theme features carefully selected colors that work together to create visual harmony
+- **Reduced Eye Strain** — Optimized contrast ratios and color relationships for comfortable extended coding sessions
+- **Consistent Experience** — Uniform design principles across all variants allow seamless transitions between themes
+- **Enhanced Readability** — Syntax highlighting prioritizes code comprehension while maintaining aesthetic appeal
+- **Zed Optimized** — Specially crafted for Zed's modern UI and editing features
 
 ## Installation
 
-1. Open Visual Studio Code
-2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "Yūgen Themes"
-4. Click Install
-5. Select your preferred Yūgen theme variant from the Color Theme picker (Ctrl+K Ctrl+T)
+1. Open Zed
+2. Navigate to Settings
+3. Select Themes
+4. Choose Yūgen from the theme list
+5. Select your preferred Yūgen variant
 
-## Customization
+## Community
 
-While each theme has been carefully designed, you can further customize them to suit your preferences. Refer to the [VS Code theme customization guide](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme) for more information.
-
-## Feedback and Contributions
-
-Your feedback and contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on our [GitHub repository](https://github.com/yourusername/yugen-themes).
+- **Issues & Suggestions**: [GitHub Issues](https://github.com/frank-vdm/yugen/issues)
+- **Contribute**: Pull requests welcome
+- **Updates**: Star the repository to stay informed of new releases
 
 ## License
 
-This theme is released under the [MIT License](LICENSE).
+Released under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-Yūgen Themes were inspired by the Japanese concept of yūgen (幽玄) and the beauty of transitioning light. Special thanks to the VS Code theme development community for their insights and tools.
+Created with appreciation for the Japanese aesthetic concepts that find beauty in subtlety and depth. Special thanks to the Zed team for their innovative editor.
 
-Enjoy your coding journey with Yūgen Themes!
+---
+
+*"Yūgen is to watch the sun sink behind a flower clad hill, to wander on in a huge forest without thought of return, to stand upon the shore and gaze after a boat that disappears behind distant islands, to contemplate the flight of wild geese seen and lost among the clouds."* — Zeami Motokiyo

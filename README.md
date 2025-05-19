@@ -1,14 +1,15 @@
 
 
-<img src="./assets/banner.svg" alt="Yūgen Banner" style="border-radius: 8px;">
+![Yūgen Themes for Zed banner](./assets/banner.svg)
 
 # 幽玄 (Yūgen) Themes for Zed
 
 ## A Profound Coding Experience
+*by François v/d Merwe (SF)*
 
 **Yūgen** (幽玄) embodies the Japanese aesthetic concept of a profound awareness that triggers emotions too deep and mysterious for words. This meticulously crafted collection of themes for the Zed editor translates that philosophical beauty into your coding environment, offering a spectrum from deepest dark to brightest light.
 
-> "To watch the sun sink behind a flower clad hill, to wander on in a huge forest without thought of return, to stand upon the shore and gaze after a boat that disappears behind distant islands... such are the gates to Yūgen."
+---
 
 ## Theme Spectrum
 
@@ -43,6 +44,7 @@ Each variant in the Yūgen collection represents a distinct moment in the transi
 
 - **Issues & Suggestions**: [GitHub Issues](https://github.com/frank-vdm/yugen/issues)
 - **Contribute**: Pull requests welcome
+- **Support**: If you enjoy using Yūgen, please consider giving it a ⭐️ on GitHub to show your appreciation.
 - **Updates**: Star the repository to stay informed of new releases
 
 ## License
@@ -50,6 +52,8 @@ Each variant in the Yūgen collection represents a distinct moment in the transi
 Released under the [MIT License](LICENSE).
 
 ## Acknowledgements
+
+Created with appreciation for the Japanese aesthetic concepts that find beauty in subtlety and depth. Special thanks to the Zed team for their innovative editor.
 
 Created with appreciation for the Japanese aesthetic concepts that find beauty in subtlety and depth. Special thanks to the Zed team for their innovative editor.
 

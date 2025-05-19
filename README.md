@@ -44,7 +44,7 @@ Each variant in the Yūgen collection represents a distinct moment in the transi
 
 - **Issues & Suggestions**: [GitHub Issues](https://github.com/frank-vdm/yugen/issues)
 - **Contribute**: Pull requests welcome
-- **Support**: If you enjoy using Yūgen, please consider giving it a ⭐️ on GitHub to show your appreciation
+- **Support**: If you enjoy using Yūgen, please consider giving it a ⭐️ on GitHub to show your appreciation.
 - **Updates**: Star the repository to stay informed of new releases
 
 ## License
